@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace = 'com'
+    compileSdkVersion = 35
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.2'
+    implementation 'commons-io:commons-io:2.18.0'
+    implementation 'commons-codec:commons-codec:1.17.1'
+    implementation 'org.aspectj:aspectjtools:1.9.22.1'
+}
