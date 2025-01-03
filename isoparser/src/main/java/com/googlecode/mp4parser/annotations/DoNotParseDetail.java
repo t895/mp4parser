@@ -30,7 +30,6 @@ import java.lang.annotation.*;
  * Mark a method with this annotation to prevent triggering the call of
  * <code>AbstractBox#parseDetails()</code> before actually executing the
  * method.
- * @see com.googlecode.mp4parser.RequiresParseDetailAspect
  */
 public @interface DoNotParseDetail {
 }

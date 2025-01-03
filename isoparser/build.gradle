@@ -14,5 +14,4 @@ dependencies {
     implementation 'junit:junit:4.13.2'
     implementation 'commons-io:commons-io:2.18.0'
     implementation 'commons-codec:commons-codec:1.17.1'
-    implementation 'org.aspectj:aspectjtools:1.9.22.1'
 }
